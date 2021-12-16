@@ -1,0 +1,202 @@
+body {
+	background-color: #fff;
+	color: black;
+	font-family: "Times New Roman", Times, serif;
+	font-weight: 999;
+	height: 100%;
+	min-height: 100%;
+	margin-bottom: -50px;
+	margin: 0;
+}
+
+div.lesson {
+	margin: auto;
+	width: 900px;
+	height: 500px;
+}
+
+div.product {
+	margin: auto;
+	width: 900px;
+	height: 500px;
+}
+
+div.image {
+	float: left;
+	width: 450px;
+	height: 500px;
+}
+
+div.description {
+	float: right;
+	width: 450px;
+	height: 100px;
+	padding-left: 15px;
+	text-align: left;
+}
+
+div.enrollment {
+	float: right;
+	width: 450px;
+	height: 400px;
+	padding-left: 15px;
+	text-align: left;
+}
+
+div.order {
+	float: right;
+	width: 450px;
+	height: 400px;
+	padding-left: 15px;
+	text-align: left;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+input[type=text], select, textarea {
+	width: 100%;
+	padding: 12px;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	resize: vertical;
+}
+
+label {
+	padding: 12px 12px 12px 0;
+	display: inline-block;
+}
+
+input[type=submit] {
+	background-color: #4CAF50;
+	color: white;
+	padding: 12px 20px;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+	float: right;
+}
+
+input[type=submit]:hover {
+	background-color: #45a049;
+}
+
+.container {
+	border-radius: 5px;
+	background-color: #f2f2f2;
+	padding: 20px;
+}
+
+.col-25 {
+	float: left;
+	width: 25%;
+	margin-top: 6px;
+}
+
+.col-75 {
+	float: left;
+	width: 75%;
+	margin-top: 6px;
+}
+
+.col-76 {
+	float: left;
+	width: 75%;
+	display: flex;
+	align-items: center;
+}
+
+.row:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+@media screen and (max-width: 600px) {
+	.col-25, .col-75, input[type=submit] {
+		width: 100%;
+		margin-top: 0;
+	}
+}
+
+.full-height {
+	height: 100vh;
+}
+
+.flex-center {
+	align-items: center;
+	display: flex;
+	justify-content: center;
+}
+
+.position-ref {
+	position: relative;
+}
+
+.top-right {
+	position: absolute;
+	right: 10px;
+	top: 18px;
+}
+
+.content {
+	text-align: center;
+}
+
+.m-b-md {
+	margin-bottom: 30px;
+}
+
+.title {
+	font-size: 50px;
+	text-transform: uppercase;
+}
+
+footer {
+	background: black;
+	color: white;
+	padding: 20px;
+	text-align: center;
+	position: fixed;
+	padding: 20px 20px 20px 20px;
+	bottom: 0;
+	width: 100%;
+	border-top: 5px solid white;
+}
+
+.button2 {
+	float: left;
+	position: relative;
+	background-color: black;
+	border: 5px solid white;
+	font-size: 28px;
+	color: #FFFFFF;
+	padding: 20px;
+	width: 300px;
+	text-align: center;
+	transition-duration: 0.4s;
+	text-decoration: none;
+	overflow: hidden;
+	cursor: pointer;
+}
+
+.button2:after {
+	content: "";
+	background: #f1f1f1;
+	display: block;
+	position: absolute;
+	padding-top: 300%;
+	padding-left: 350%;
+	margin-left: -20px !important;
+	margin-top: -120%;
+	opacity: 0;
+	transition: all 0.8s
+}
+
+.button2:active:after {
+	padding: 0;
+	margin: 0;
+	opacity: 1;
+	transition: 0s
+}
