@@ -142,6 +142,7 @@ input[type=submit]:hover {
 
 .content {
 	text-align: center;
+    padding-bottom: 30px;
 }
 
 .m-b-md {
