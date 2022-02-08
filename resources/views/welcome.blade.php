@@ -7,7 +7,7 @@
 
 	<!-- Logo -->
 	<img src="/img/boxacalogo.png" alt="boxing academy logo"
-		style="width: 800px;">
+		style="width: 65%;">
 
 </div>
 @endsection
